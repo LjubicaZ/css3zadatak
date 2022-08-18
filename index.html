@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    
+    .container {
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    }
+
+    .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    }
+
+    .column {
+    flex-basis: 20%;
+    box-sizing: border-box;
+    padding: 8px;
+    }
+
+    .box {
+    height: 144px;
+    background-image: url("placeholder-image.png");
+    border-radius: 20px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-color: rgb(132, 132, 168);
+    text-align: center;
+    
+      /*position: relative; */
+
+    }
+
+    /*p { 
+        position: absolute;
+        padding: 8px;
+        bottom: 0;
+        left: 0;
+        background-color: beige;
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 16px;
+        color: black;
+        font-family: sans-serif;
+    }*/
+
+h2 {
+    font-size: 20px;
+    background-color: white;
+
+}
+    
+.p {
+    font-family: sans-serif;
+}
+
+    @media screen and (max-width: 1024px) {
+    .column {
+    flex-basis: 20%;
+    }
+    }
+    @media screen and (max-width: 768px) {
+    .column {
+    flex-basis: 33%;
+    }
+    }
+    @media screen and (max-width: 414px) {
+    .column {
+    flex-basis: 100%;
+    }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2> Gallery Heading </h2>
+        </div>
+
+        <div class="row">
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        <div class="column">
+        <div class="box"> <p>Image title</p> </div>
+        </div>
+        </div>
+
+        <div class="row">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere eligendi, alias, debitis perspiciatis accusantium non autem voluptatibus rerum omnis expedita dolores facilis. Illum suscipit qui necessitatibus neque esse! Debitis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia nulla minus. Doloremque ducimus numquam eligendi, modi dolores ipsa accusamus repellendus magni, perspiciatis minus nam ex, obcaecati ab? Beatae, expedita. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus ut reiciendis quam unde ullam illo ipsum ad, facilis, quas commodi rerum ipsam, totam possimus neque accusantium velit omnis corporis dolor!
+                 </p>
+        </div>
+
+        </div>        
+    
+</body>
+</html>
